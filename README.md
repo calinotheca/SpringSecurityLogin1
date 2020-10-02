@@ -39,6 +39,6 @@ server.port=8080
 ```
 
 ## 4. Screenshots
-![Image1](http://kwascow.civ.pl/file-repository/springSecurityLogin1_1.png "Screen 1")
-![Image1](http://kwascow.civ.pl/file-repository/springSecurityLogin1_2.png "Screen 1")
+![Image1](http://kwascow.civ.pl/public_html/file_repository/springSecurityLogin1_1.png "Screen 1")
+![Image1](http://kwascow.civ.pl/public_html/file_repository/springSecurityLogin1_2.png "Screen 1")
 

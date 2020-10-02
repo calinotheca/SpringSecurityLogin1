@@ -28,7 +28,7 @@ mysql> flush privileges;
 # MySQL database configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/springSecurityLogin1?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
 spring.datasource.username=springSecurityLogin1
-spring.datasource.password=123abb
+spring.datasource.password=<password>
 spring.datasource.sqlScriptEncoding=UTF-8
 spring.jpa.hibernate.ddl-auto=create
 spring.datasource.initialization-mode=always

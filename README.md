@@ -2,17 +2,22 @@
 ## 1. Create database and user
 a. Create database
 
+```java
 mysql> create database springSecurityLogin1;
+```
 
 b. Create database user identified by custom password.
 
-`mysql> create user 'springSecurityLogin1'@'localhost' identified by '<password>';`
+```java
+mysql> create user 'springSecurityLogin1'@'localhost' identified by '<password>';
+```
 
 c. Set grant privileges on database to user.
 
-`mysql> grant all privileges on springSecurityLogin1.* to 'springSecurityLogin1'@'localhost';`
-
-`mysql> flush privileges;`
+```java
+mysql> grant all privileges on springSecurityLogin1.* to 'springSecurityLogin1'@'localhost';
+mysql> flush privileges;
+```
 
 ## 2. Clone git code and change settings in application.properties.
 `# MySQL database configuration`

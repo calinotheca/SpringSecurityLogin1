@@ -1,8 +1,8 @@
 # Tutorial
-## Used components
+## 1. Used components
 [Colorlib form template](https://colorlib.com/wp/template/login-form-v10/)
 
-## 1. Create database and user
+## 2. Create database and user
 a. Create database
 
 ```sql
@@ -22,7 +22,7 @@ mysql> grant all privileges on springSecurityLogin1.* to 'springSecurityLogin1'@
 mysql> flush privileges;
 ```
 
-## 2. Clone git code and change settings in application.properties.
+## 3. Clone git code and change settings in application.properties.
 ```java
 # aplication.properties
 # MySQL database configuration
@@ -37,3 +37,8 @@ spring.datasource.initialization-mode=always
 server.servlet.context-path=/
 server.port=8080
 ```
+
+## 4. Screenshots
+![Image1](http://kwascow.civ.pl/file-repository/springSecurityLogin1_1.png "Screen 1")
+![Image1](http://kwascow.civ.pl/file-repository/springSecurityLogin1_2.png "Screen 1")
+
